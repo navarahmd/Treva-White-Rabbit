@@ -444,6 +444,7 @@ header .navbar-expand-lg .navbar-nav .nav-link.log-in:hover {
 	height: 60px;
 	cursor: pointer;
 	padding: 12px 14px;
+	text-align: center;
 }
 
 .product-section .product-color .color-option .colors:hover {
