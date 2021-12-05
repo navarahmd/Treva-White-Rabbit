@@ -291,7 +291,7 @@ header .navbar-expand-lg .navbar-nav .nav-link.log-in:hover {
 
 .product-section .product-slider-single .slick-slide img {
 	margin: auto;
-	width: 100%;
+	width: 80%;
 }
 
 .product-section .product-slider-multiple {
@@ -414,19 +414,22 @@ header .navbar-expand-lg .navbar-nav .nav-link.log-in:hover {
 	grid-row-gap: 8px;
 	position: relative;
 }
-
+.product-section .product-color .color-option .colors .sp-color02 {
+	background: #A07EDC !important;
+}
 .product-section .product-color .color-option .colors .sp-color {
 	position: absolute;
 	top: 0px;
 	height: 16px;
 	color: #fff;
 	text-align: center;
-	background: #333;
+	background: #DE742D;
 	width: 100%;
 	padding: 2px;
 	font-size: 13px;
 	line-height: 16px;
 	border-radius: 6px 6px 0px 0px;
+	padding: 2px 0px;
 }
 
 .product-section .product-color .color-option .colors {
@@ -440,6 +443,7 @@ header .navbar-expand-lg .navbar-nav .nav-link.log-in:hover {
 	position: relative;
 	height: 60px;
 	cursor: pointer;
+	padding: 12px 14px;
 }
 
 .product-section .product-color .color-option .colors:hover {
