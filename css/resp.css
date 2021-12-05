@@ -1,0 +1,188 @@
+/*************Responsive Styles*****************/
+
+
+/***************iPhone Portrait**************/
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+	header .navbar-toggler i {
+		color: #ddd;
+		position: relative;
+		z-index: 999;
+	}
+	header .header-menu {
+		position: absolute;
+		width: 100% !important;
+		height: fit-content;
+		background: #fff;
+		padding: 100px 0px;
+		left: 0;
+		top: 0;
+		text-align: center;
+		width: fit-content;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		color: #333;
+	}
+	header .header-menu li {
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	header .header-menu li.country-flag {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+	}
+	.product-section .product-slider-multiple .product-single-img img {
+		width: 30px;
+		height: 30px;
+		margin: 0px;
+	}
+	.product-section .product-slider-multiple .product-single-img img:last-child {
+		margin-right: 0px !important;
+	}
+	.product-section .product-slider-single .slick-next,
+	.product-section .product-slider-single .slick-prev {
+		width: 30px;
+		height: 30px;
+	}
+	.banner-section .layout-image {
+		margin-top: 50px;
+	}
+	.product-section {
+		padding: 30px 0px;
+	}
+	.product-details{
+		padding-top: 30px;
+	}
+	.banner-section .layout-image img{
+		width: 100%;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link.log-in{
+		color: #fff;
+	}
+}
+
+
+/**********************iPhone Landscape*************/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	header .navbar-toggler i {
+		color: #ddd;
+		position: relative;
+		z-index: 999;
+	}
+	header .header-menu {
+		position: absolute;
+		width: 100% !important;
+		height: fit-content;
+		background: #fff;
+		padding: 100px 0px;
+		left: 0;
+		top: 0;
+		text-align: center;
+		width: fit-content;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		color: #333;
+	}
+	header .header-menu li {
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	header .header-menu li.country-flag {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+	}
+
+	.product-section .product-slider-multiple .product-single-img img:last-child {
+		margin-right: 0px !important;
+	}
+	.product-section .product-slider-single .slick-next,
+	.product-section .product-slider-single .slick-prev {
+		width: 30px;
+		height: 30px;
+	}
+	.banner-section .layout-image {
+		margin-top: 50px;
+	}
+	.product-section {
+		padding: 30px 0px;
+	}
+	.product-details{
+		padding-top: 30px;
+	}
+	.banner-section .layout-image img{
+		width: 100%;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link.log-in{
+		color: #fff;
+	}
+}
+
+
+/*************************iPad Portrait***************/
+
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+	header .navbar-toggler i {
+		color: #ddd;
+		position: relative;
+		z-index: 999;
+	}
+	header .header-menu {
+		position: absolute;
+		width: 100% !important;
+		height: fit-content;
+		background: #fff;
+		padding: 100px 0px;
+		left: 0;
+		top: 0;
+		text-align: center;
+		width: fit-content;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		color: #333;
+	}
+	header .header-menu li {
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	header .header-menu li.country-flag {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+	}
+	.product-section .product-slider-single .slick-next,
+	.product-section .product-slider-single .slick-prev {
+		width: 30px;
+		height: 30px;
+	}
+	.banner-section .layout-image {
+		margin-top: 50px;
+	}
+	.product-section {
+		padding: 30px 0px;
+	}
+	.product-details{
+		padding-top: 30px;
+	}
+	.banner-section .layout-image img{
+		width: 100%;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link.log-in{
+		color: #fff;
+	}
+}
+
+
+/**************iPad Landscape***************/
+
+@media only screen and ( max-width: 1024px) and (min-width: 986px) {
+
+	header .header-menu li.country-flag {
+    padding-right: 8px;
+    padding-left: 50px;
+}
+
+
+/*******************************************/
